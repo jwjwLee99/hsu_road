@@ -1,0 +1,79 @@
+{
+  "names": [
+    { "id": 1, "name": "학사반점" },
+    { "id": 2, "name": "국빈각" },
+    { "id": 3, "name": "맥스또띠아" },
+    { "id": 4, "name": "도스마스" },
+    { "id": 5, "name": "치킨집" },
+    { "id": 6, "name": "엄청난파닭" },
+    { "id": 7, "name": "더큰도시락" },
+    { "id": 8, "name": "맘스터치" },
+    { "id": 9, "name": "피나치공" },
+    { "id": 10, "name": "59쌀피자" },
+    { "id": 11, "name": "신전떡볶이" },
+    { "id": 12, "name": "엽기떡볶이" }
+  ],
+
+  "images": [
+    {
+      "url": "/res/학사반점",
+      "name": "학사반점",
+      "img": "./resImg/학사반점.jpeg"
+    },
+    {
+      "url": "/res/국빈각",
+      "name": "국빈각",
+      "img": "./resImg국빈각.jpeg"
+    },
+    {
+      "url": "/res/맥스또띠아",
+      "name": "맥스또띠아",
+      "img": "./resImg/맥스또띠아.jpeg"
+    },
+    {
+      "url": "/res/도스마스",
+      "name": "도스마스",
+      "img": "./resImg/도스마스.jpeg"
+    },
+    {
+      "url": "/res/치킨집",
+      "name": "치킨집",
+      "img": "./resImg/치킨집.jpeg"
+    },
+    {
+      "url": "/res/엄청난파닭",
+      "name": "엄청난파닭",
+      "img": "./resImg/엄청난파닭.jpeg"
+    },
+    {
+      "url": "/res/더큰도시락",
+      "name": "더큰도시락",
+      "img": "./resImg/더큰도시락.jpeg"
+    },
+    {
+      "url": "/res/맘스터치",
+      "name": "맘스터치",
+      "img": "./resImg/맘스터치.jpeg"
+    },
+    {
+      "url": "/res/피나치공",
+      "name": "피나치공",
+      "img": "./resImg/피나치공"
+    },
+    {
+      "url": "/res/59쌀피자",
+      "name": "59쌀피자",
+      "img": "./resImg/59쌀피자"
+    },
+    {
+      "url": "/res/신전떡볶이",
+      "name": "신전떡볶이",
+      "img": "./resImg/신전떡볶이"
+    },
+    {
+      "url": "/res/엽기떡볶이",
+      "name": "엽기떡볶이",
+      "img": "./resImg/엽기떡볶이"
+    }
+  ]
+}

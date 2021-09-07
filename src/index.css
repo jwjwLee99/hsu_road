@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+:root {
+  --basic-font-size: 1.5rem;
+  --logo-font-size: 4rem;
+  --nav-font-size: 6vw;
+  --nav-etc-font: 0.5rem;
+
+  --skyblue-color: #f0ffff;
+  --blue-color: #00ffff;
+  --gray-color: #c0c0c0;
+  --white-color: white;
+  --black-color: black;
+  --yellow-color: #ffffe0;
+  --backgroud-color: #f8f8ff;
+
+  --big-btn-a-width: 60vw;
+  --basic-btn-width: 22.5vw;
+  --basic-btn-height: 16vw;
+
+  --box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  --text-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+* {
+  font-family: "Jua", sans-serif;
+  text-decoration: none;
+  color: var(--black-color);
+}
+html {
+  height: 100%;
+  overflow: hidden;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+**************
+Index Main
+**************
+*/
+/* main header */
+.mainHeader {
+  position: relative;
+  background-color: var(--backgroud-color);
+  padding: 5px;
+}
+
+.fab {
+  margin-bottom: 0.5rem;
+  font-size: var(--logo-font-size);
+  color: var(--white-color);
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* main body */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  -webkit-font-smoothig: antialiased;
+  background-color: var(--backgroud-color);
+  margin: 0;
+  overflow: auto;
+  touch-action: none;
+}
+.mainText {
+  margin-top: 20vw;
+  height: 30vw;
+}
+.mainText span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  animation: bounce 0.3s ease infinite alternate;
+  font-size: 80px;
+  color: var(--yellow-color);
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* text aninmaition */
+.mainText span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.mainText span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.mainText span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.mainText span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.mainText span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.mainText span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.mainText span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+@keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+      0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+      0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}
+/* ************************* */
+
+.mainFooter {
+  margin-top: 20vw;
+}
+
+.mainContents {
+  box-sizing: content-box;
+  height: 33rem;
+  overflow-y: scroll;
+  background-color: transparent;
+}
+
+/* nav */
+.navSection {
+  position: relative;
+  margin: auto;
+  width: 99vw;
+  height: 28vw;
+  border-radius: 1.5rem;
+  white-space: nowrap;
+  background-color: var(--skyblue-color);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.navBtn {
+  border: none;
+  float: left;
+  margin-top: 5vw;
+  margin-left: 2vw;
+  width: var(--basic-btn-width);
+  height: var(--basic-btn-height);
+  text-align: center;
+  border-radius: 15px;
+  background-color: var(--white-color);
+  box-shadow: var(--text-box-shadow);
+  transition-duration: 0.3s;
+  cursor: pointer;
+  white-space: nowrap;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.navBtn:active,
+.resList:active {
+  box-shadow: none;
+  background-color: var(--gray-color);
+}
+
+i,
+nav {
+  margin-top: 4px;
+  font-size: var(--nav-font-size);
+}
+
+/* 메인 컨텐츠박스 */
+.tabName {
+  color: var(--yellow-color);
+  font-size: 2rem;
+  margin: 3vw;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+/* pages css */
+
+.homepageLink {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: var(--basic-font-size);
+  width: var(--big-btn-a-width);
+  padding: 2vw;
+  margin: 2vw;
+  margin-bottom: 1rem;
+  background-color: var(--white-color);
+  border-radius: 1vw;
+  box-shadow: var(--box-shadow);
+}
+
+/* Restorance css */
+
+.etcList {
+  background-color: var(--white-color);
+  float: left;
+  padding: 1vw;
+  margin: 0.2vw;
+  width: var(--basic-btn-width);
+  border-radius: 0.5rem;
+  box-shadow: var(--text-box-shadow);
+  transition-duration: 0.3s;
+}
+.resList > Link:active {
+  background-color: red;
+}
+.imgBox {
+  margin-top: 5vw;
+  background-color: transparent;
+}
+.menuImage {
+  width: 100vw;
+}
+
+/* 기타정보 css */
+.busImage {
+  width: 95vw;
+  height: 100vw;
+}
+
+.contentsBox {
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 95vw;
+  height: 65vw;
+  border-radius: 1rem;
+  background-color: var(--skyblue-color);
+  box-shadow: var(--text-box-shadow);
+}

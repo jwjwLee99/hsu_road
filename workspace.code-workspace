@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "hsu-road",
+		"path": "."
+	}
+],
+  "settings": {
+    "git.ignoreLimitWarning": true
+  }
+}
